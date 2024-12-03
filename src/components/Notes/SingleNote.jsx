@@ -19,8 +19,8 @@ const SingleNote = ({ note }) => {
                 <Typography>{note.text}</Typography>
             </CardContent>
             <CardActions>
-                <ArchiveOutlinedIcon fontSize='small' style={{marginLeft:'auto'}}/>
-                <DeleteOutlinedIcon fontSize='small'/>
+                <ArchiveOutlinedIcon fontSize='small' style={{ marginLeft: 'auto' }} />
+                <DeleteOutlinedIcon fontSize='small' />
             </CardActions>
         </StyledCard>
     )
